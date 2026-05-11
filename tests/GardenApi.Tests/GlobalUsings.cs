@@ -1,0 +1,12 @@
+global using Xunit;
+global using Moq;
+global using FluentAssertions;
+global using AutoMapper;
+global using GardenApi.Application.Services;
+global using GardenApi.Application.Interfaces;
+global using GardenApi.Application.DTOs.Garden;
+global using GardenApi.Application.DTOs.Plant;
+global using GardenApi.Application.DTOs.GardenItem;
+global using GardenApi.Domain.Interfaces;
+global using GardenApi.Domain.Models;
+global using GardenApi.Domain.Enums;

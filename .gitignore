@@ -1,0 +1,43 @@
+## Build output
+bin/
+obj/
+
+## Visual Studio
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+## Rider / JetBrains
+.idea/
+
+## VS Code
+.vscode/
+
+## dotnet publish / tool manifests
+publish/
+.dotnet/
+.tool-manifest
+
+## NuGet
+*.nupkg
+*.snupkg
+packages/
+nuget.config.user
+
+## Logs
+*.log
+logs/
+
+## OS
+.DS_Store
+Thumbs.db
+
+## Secrets / environment overrides
+appsettings.Production.json
+appsettings.Local.json
+*.pfx
+*.p12
+.env
+secrets.json
